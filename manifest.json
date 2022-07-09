@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "Astra",
+  "description": "A cross browser extension that can be used in the process of reconnaissance, also known as information gethering, of a web application",
+  "version": "0.1.0",
+
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "notifications",
+    "contextMenus"
+  ],
+
+  "omnibox": { "keyword" : "bbb" },
+
+  "browser_action": {
+    "default_icon": "img/icon.png",
+    "default_popup": "index.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+
+}
