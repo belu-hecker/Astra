@@ -1,0 +1,25 @@
+body {
+  background-color: #cbf2ea
+}
+h1 {
+  color: Red;
+  font-family: cursive;
+  font-size: xxx-large;
+  font-weight: 600;
+}
+#scripts-toggler{
+  color: rgb(182, 40, 147);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#query-toggler{
+  color: rgb(182, 40, 147);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#links-toggler{
+  color: rgb(182, 40, 147);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#comments-toggler{
+  color: rgb(182, 40, 147);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
